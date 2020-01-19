@@ -1,0 +1,23 @@
+{
+  "name": "typewriter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "postinstall": "npm install express"
+  },
+  "keywords": [],
+  "author": "Eugene Petryankin",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "content_security_policy": "default-src 'self' style-src 'self' 'unsafe-inline';"
+}
