@@ -16,7 +16,7 @@ var app = new Vue({
         body: JSON.stringify({ text })
       });
       const data = await res.json();
-      this.link = `http://localhost:5001/x/${data.name}`;
+      this.link = `https://typee.herokuapp.com/x/${data.name}`;
       this.done = true;
     },
     copy() {

@@ -1,6 +1,6 @@
 async function getText() {
   const id = window.location.pathname.replace('/x/', '');
-  const res = await fetch(`http://localhost:5001/api/${id}`);
+  const res = await fetch(`https://typee.herokuapp.com/api/${id}`);
   const data = await res.json();
   return data.text;
 }
