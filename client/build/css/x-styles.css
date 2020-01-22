@@ -1,0 +1,1 @@
+span{border-right:.05em solid;-webkit-animation:1s steps(1) infinite caret;animation:1s steps(1) infinite caret}@-webkit-keyframes caret{50%{border-color:transparent}}@keyframes caret{50%{border-color:transparent}}@media screen and (max-width:768px){h1{font-size:2rem}}
